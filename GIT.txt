@@ -1,0 +1,32 @@
+============================================Devops===================================
+=======================Github=================================
+Ex:
+Admin@DESKTOP-CFKE29N MINGW64 /f/GIT/Devops (master)
+$ ls
+Devops1
+
+Admin@DESKTOP-CFKE29N MINGW64 /f/GIT/Devops (master) ---------- added content
+$ vi Devops1
+
+Admin@DESKTOP-CFKE29N MINGW64 /f/GIT/Devops (master) --------- updated content by add command
+$ git add .
+
+Admin@DESKTOP-CFKE29N MINGW64 /f/GIT/Devops (master) --------- commit changes
+$ git commit -m "3rd update"
+[master 3539b38] 3rd update
+ 1 file changed, 3 insertions(+)
+
+Admin@DESKTOP-CFKE29N MINGW64 /f/GIT/Devops (master) ---------- push the changes to central repository
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 296 bytes | 296.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Rasanam/Devops.git
+   0067bac..3539b38  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Admin@DESKTOP-CFKE29N MINGW64 /f/GIT/Devops (master)
